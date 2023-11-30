@@ -14,8 +14,7 @@ class battleship {
         return board;
     }
     attack(x, y) {
-        x++;
-        y++;
-        this.board[y][x] = "X";
+        this.board[y][x] = "x";
+        return this.show_board();
     }
 }
